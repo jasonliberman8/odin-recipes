@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vegetarian Recipes</title>
-</head>
-<body>
-    <h1>Simple Vegetarian Recipes</h1>
-    <p>This is a small collection of easy vegetarian recipes I've collected. Enjoy!</p>
-    <img src="https://media.giphy.com/media/WUxU1JwGW2nyAd34ID/giphy.gif" width="500">
-    <ul>
-        <li><a href="./recipes/ramen.html"><strong>Spicy Asian Ramen Noodles</strong></a></li>
-        <li><a href="./recipes/chili.html"><strong>Veggie Chili</strong></a></li>
-        <li><a href="./recipes/fried-rice.html"><strong>Egg Fried Rice</strong></a></li>
-    </ul>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Vegetarian Recipes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="header">Easy Vegetarian Recipes</h1>
+    <!-- <p>This is a small collection of easy vegetarian recipes I've collected. Enjoy!</p> -->
+    <!-- <img src="https://media.giphy.com/media/WUxU1JwGW2nyAd34ID/giphy.gif" width="500"> -->
+    <div class="container">
+      <div class="gallery">
+        <a href="./recipes/ramen.html">
+          <img class="gallery-image" src="./images/ramen.png" alt="Spicy Ramen" />
+          <h3 class="gallery-header">Spicy Ramen</h3>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="./recipes/chili.html">
+          <img class="gallery-image" src="./images/chili.png" alt="Veggie Chili" />
+          <h3 class="gallery-header">Veggie Chili</h3>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="./recipes/fried-rice.html">
+          <img class="gallery-image" src="./images/fried-rice.png" alt="Egg Fried Rice" />
+          <h3 class="gallery-header">Egg Fried Rice</h3>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
